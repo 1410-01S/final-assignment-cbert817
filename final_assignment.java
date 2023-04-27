@@ -42,10 +42,29 @@ public class final_assignment {
             return temp;
         }
 
+        public ArrayList<animal> addAnimals(int iStartingNumber){
+
+            ArrayList<animal> temp = new ArrayList<animal>();
+
+
+            for(int i =0; i<iStartingNumber; i++){
+                temp.add(new animal());
+            }
+            
+            //TODO
+            return temp;
+        }
+
     }
 
     static class resource {
+        int locationX;
+        int locationY;
+        char type;
 
+        public setType() {
+            //TODO
+        }
     }
 
     static class creature {
